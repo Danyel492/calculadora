@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, button, textarea {
+    font-family: sans-serif;
+}
+
+.corpo {
+    background-color: rgb(73, 73, 73);
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.visor {
+    height: 50px;
+    width: 215px;
+    margin: 8px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.teclado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 5px;
+}
