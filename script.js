@@ -20,8 +20,5 @@ function calcular(tipo, valor) {
         console.log(valor)
     }
 
- addEventListener(KeyboardEvent, function () {
-    console.log('Esc')
- }) 
 
 }
