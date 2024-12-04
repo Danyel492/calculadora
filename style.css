@@ -20,11 +20,20 @@ body, button, textarea {
     height: 50px;
     width: 215px;
     margin: 8px;
-    background-color: rgb(206, 206, 206);
+    background-color: #cecece;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    padding: 0 10px;
+    justify-content: center;
+}
+
+.visor input {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 48px;
+    width: 213px;
+    font-size: large;
+    padding-left: 15px;
 }
 
 .teclado {
@@ -32,6 +41,10 @@ body, button, textarea {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+.teclado button:hover {
+    background-color: #adadad;
+    cursor: pointer;
 }
 
 button {
